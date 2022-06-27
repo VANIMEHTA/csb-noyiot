@@ -93,3 +93,24 @@ input:focus {
 .form-p .show {
   display: block;
 }
+@media screen and (max-width: 840px) {
+  .container {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  .left {
+    width: 60%;
+    margin-top: 10px;
+  }
+  body {
+    font-size: 12px;
+  }
+  .right {
+    width: 90%;
+  }
+  .values {
+    width: 90%;
+  }
+}
