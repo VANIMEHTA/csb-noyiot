@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Intro-Component-signup form</title>
+    <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&family=Space+Mono&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.>
+        </p>
+      </div>
+      <div class="right">
+        <div class="blue">
+          <p>Try it free 7 days then $20/mo</p>
+        </div>
+        <div class="white">
+          <div class="form">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="values"
+              id="firstn"
+            />
+            <p class="form-p" id="fnameempty">First name is compulsory</p>
+            <input
+              type="text"
+              placeholder="Last Name"
+              class="values"
+              id="lastn"
+            />
+            <p class="form-p" id="lnameempty">Last name is compulsory</p>
+            <input type="email" placeholder="Email" class="values" id="email" />
+            <p class="form-p" id="emailempty">Invalid Email</p>
+            <input
+              type="password"
+              placeholder="Password"
+              class="values"
+              id="password"
+            />
+            <p class="form-p" id="pwdempty">Password is required</p>
+            <input
+              type="submit"
+              class="submit"
+              value="CLAIM YOUR FREE TRIAL"
+              onsubmit="validate()"
+            />
+            <p class="submitp">
+              By clicking the button, you are agreeing to our Terms and Services
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
