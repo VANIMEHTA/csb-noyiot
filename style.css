@@ -84,13 +84,13 @@ input:focus {
   padding-left: 2em;
   padding-top: 2px;
 }
-.form-p {
+.form_p {
   color: hsl(0, 100%, 74%);
   font-size: 10px;
   text-align: right;
   display: none;
 }
-.form-p .show {
+.show {
   display: block;
 }
 @media screen and (max-width: 840px) {
